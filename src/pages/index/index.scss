@@ -1,0 +1,57 @@
+.mainbox {
+  background: #f2f2f2;
+  height: 100vh;
+  padding: 1rem;
+  font-size: 1rem;
+  .oldDay{
+    background: #fff;
+    padding: 1rem;
+    margin: .0 0.2rem 2rem;
+    height: 4rem;
+    border-radius: 8px;
+    box-shadow: 1px 10px 5px #eee;
+    .title{
+      font-size: .7rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .time{
+      font-size: .5rem;
+      color: #999;
+      text-align: center;
+      line-height: 3;
+    }
+    .content{
+      font-size: .6rem;
+      overflow: hidden;
+      height: 1rem;
+      color: #939393;
+    }
+  }
+  .lineBox {
+    margin-bottom: .8rem;
+    .dayBox {
+      text-align: center;
+      padding-top: 0.4rem;
+      .day {
+        font-size: 1rem;
+      }
+      .month {
+        font-size: 12px;
+        color: #999;
+      }
+    }
+
+    .cardBox {
+      font-size: 16px;
+      border-radius: 5px;
+      background: #fff;
+      min-height: 3rem;
+      padding: 1rem;
+      margin-left: 20px;
+      box-shadow: 1px 10px 5px #eee;
+    }
+  }
+
+
+}
